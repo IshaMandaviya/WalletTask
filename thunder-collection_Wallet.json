@@ -1,0 +1,88 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Wallet",
+    "dateExported": "2022-04-14T11:22:00.619Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "486494a1-e5c5-48cf-9f01-6dc99717debb",
+            "colId": "07782272-18b3-4015-b468-b8638f4c3549",
+            "containerId": "",
+            "name": "signup",
+            "url": "localhost:3000/signup",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2022-04-12T04:35:42.505Z",
+            "modified": "2022-04-14T05:36:04.640Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"email\":\"mandviyaisha@gmail.com\",\n    \"password\":\"isha2180\",\n    \"cpassword\":\"isha2180\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "746d42bb-e5fc-48ea-bfbf-5b209c506768",
+            "colId": "07782272-18b3-4015-b468-b8638f4c3549",
+            "containerId": "",
+            "name": "login",
+            "url": "localhost:3000/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2022-04-12T05:58:24.497Z",
+            "modified": "2022-04-14T11:16:56.929Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"email\":\"isha@gmail.com\",\n    \"password\":\"isha2180\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5aca02f0-e6c5-4b5d-812c-d503cf6375cf",
+            "colId": "07782272-18b3-4015-b468-b8638f4c3549",
+            "containerId": "",
+            "name": "sendToken",
+            "url": "localhost:3000/sendToken",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2022-04-12T09:43:22.669Z",
+            "modified": "2022-04-14T09:17:41.340Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"_receiver\":\"0xCE76351C6b4d990042CD3C799338462000Cc4c20\",\n    \"_amount\":\"50\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjU3ZDhhNzVmNDY4OTNjNmY3NjMwYjciLCJhZGRyZXNzIjoiMHhmQTk3NTBFMDhENTk2ZDc5MDQxZTc3NjE3MTdBRDQxMUI4QkFmN2IwIiwiaWF0IjoxNjQ5OTI0MzIyLCJleHAiOjE2NTEyMjAzMjJ9.N9xwXwqH70RuUsmmTuKz84IPmDVQid9NxFy5IN61mKk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "57ec607b-c533-4bca-bd33-da90d7d20922",
+            "colId": "07782272-18b3-4015-b468-b8638f4c3549",
+            "containerId": "",
+            "name": "getTransactionDetails",
+            "url": "localhost:3000/getTransactionDetails",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2022-04-14T11:08:28.631Z",
+            "modified": "2022-04-14T11:21:00.750Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjU3YWQ2NzJlZWJmY2UwYzk5ZjdjMDQiLCJhZGRyZXNzIjoiMHhDRTc2MzUxQzZiNGQ5OTAwNDJDRDNDNzk5MzM4NDYyMDAwQ2M0YzIwIiwiaWF0IjoxNjQ5OTM1MDU0LCJleHAiOjE2NTEyMzEwNTR9.YoAV8ksRY2slQFg0anIV37X16NUmn6_xVYwD0ypi5PQ"
+            },
+            "tests": []
+        }
+    ]
+}
